@@ -1,0 +1,186 @@
+.media{
+    background-color:black;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+*{
+    margin: 0;
+
+}
+
+.r{
+    color: white 
+} 
+
+div{
+    color: white;
+}
+
+
+button{
+    width: 80px;
+    height: 35px;
+}
+.k{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    gap: 20px;
+} 
+.j{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    /* background-color: black; */
+    
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 300px 300px 0 0;
+    overflow: hidden;
+    border: 8px solid rgba(255, 255, 255,0.12);
+     
+}
+.toy{
+    justify-content: space-around;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: black; */
+    
+}
+
+.wr>h1{ 
+    position: relative;
+    z-index: 1;
+    font-size: 3.8rem;
+    font-weight:600 ;
+    line-height:4 rem ;
+    
+}
+
+.l{
+    background-color: white;
+    border: 3px solid rgba(120, 120, 120,0.374);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+
+}
+.input{
+    height: 20px;
+    border: none;
+    outline: none;
+}
+.contact{
+    background-color: rgb(30, 121, 206);
+    border: 2px solid black;
+    cursor: pointer;
+}
+.o{
+    display: flex;
+} 
+.i{
+    font-size: 2rem;
+}
+.t{
+    font-size: 1rem;
+    padding:  5px 20px 0 0;
+}
+
+.link{
+    color: white;
+    font-weight: 400;
+    font-size: larger;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+@media screen and (max-width:720px) {
+    .media{
+
+        background-color: black;
+        min-width: 110vh;
+        min-height:max-content
+    }
+    .toy{
+        display: block;
+    }
+    .wr{
+        margin-top: 50px;
+      
+        font-weight: 600; 
+    }
+    .l{
+        width: 500px;
+        height: 70px;
+    }
+    
+    .bot{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        padding: 40px;
+    }
+    .contact{
+        width: 100px;
+        height: 50px;
+        color: white;
+    }
+    
+    
+    .o{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        
+    }
+    .i{
+        font-size: xx-large;
+    }
+    .t{
+        padding-top: 20px;
+        font-size: xx-large;
+        word-spacing: 10px;
+    }
+    .om{
+        display: flex;
+        justify-content: center;
+    }
+    .abs{
+        width: 250px;
+        height: 200px;
+    }
+    .tossed{
+        font-size:20px;
+        font-weight: bold;
+        padding: 20px;
+    }
+    
+    h3{
+        font-weight: 600;
+        font-size:30px;
+        font-style: italic;
+        
+        word-spacing: 20px;
+        padding: 10px;
+    }
+    .hero{
+        width: 70vh;
+       
+    }
+    .input{
+        font-size: xx-large;
+    }
+} 
+ 

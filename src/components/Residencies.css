@@ -1,0 +1,65 @@
+
+body{
+    width: 100%;
+}
+.choice{
+    color: orange;
+    font-size: 2rem;
+    padding: 40px;
+     
+}
+.popular{
+    color: purple;
+    padding: 4px;
+    margin-left: 33px; 
+}
+.m{
+    color: red;
+}
+
+.map{
+    color: black;
+    gap: 1rem;
+    width: 50vh;
+  
+}
+.top{
+    
+    width: auto;
+   max-width:fit-content;
+   transition:all 300ms ease-in;
+   
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.top:hover{
+  scale: 1.06;
+  background-color: rgb(198, 193, 193); 
+}
+
+@media screen and (max-width:720px) {
+    .choice{
+        text-align: center;
+        margin-left: 150px;
+    }
+    .popular{
+        text-align: center;
+    }
+    .flex{
+        justify-content:left;
+        padding: 30px;
+        margin-left: 70px;
+    }
+   .top{
+    width: 200%;
+   }
+   .tyu{
+    width: 350px;
+   }
+}
+
+
+

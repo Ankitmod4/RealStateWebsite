@@ -1,0 +1,42 @@
+.qs{
+    margin: 30px; 
+}
+.gh{
+    color:grey;
+    font-size: larger;
+    font-weight: 100px;
+    margin: 0;
+    
+}
+.js{
+    color: black;
+    margin-left: 0;
+}
+ol{ 
+    list-style: none;
+}
+.wc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ak{
+    display: flex;
+   gap: 20px;
+   
+}
+.sd{
+    font-weight: 300;
+    font-size: xx-large;
+    font-style: italic;
+}
+.jsd{
+    font-weight: 400%;
+    font-size: medium;
+    color: grey;
+}
+
+.ris{
+    margin-right: 20px;
+}
+

@@ -1,0 +1,16 @@
+
+
+.mot{
+    padding: 20px;
+    display: flex; 
+    justify-content:space-between;
+    
+}
+body{ 
+    width: 100%;
+}
+.az{
+    height: 100px;
+    /* display: flex; */
+}
+

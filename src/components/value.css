@@ -1,0 +1,88 @@
+.to{
+    display: flex;
+    justify-content: space-evenly;
+}
+.right{
+    color: black;
+    padding:60px;
+    
+}
+.our{
+    font-size: xx-large;
+    font-weight: 600;
+    color: orange;
+}
+.too{
+    color: rgb(140, 139, 139); 
+    font-size:medium;
+    font-weight: 600;
+}
+
+.k{
+    color: black;
+    word-spacing: 18px;
+    width: 70vh;
+    
+}
+.ko{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: 100px;
+    
+}
+.ic{
+   background-color: rgb(193, 189, 189);
+   border-radius: 10%;
+    width: 40px;
+    
+}
+.io{
+    background-color:wheat;
+    width:80vh;
+}
+.panel:hover{
+    scale: 1.06;
+}
+
+
+@media screen and (max-width: 720px) {
+    .to {
+      display: block;
+      margin-left: 150px;
+    }
+    
+    .right {
+      padding: 20px;
+      text-align: center;
+     
+      font-weight: 800;
+    }
+  
+    .our {
+      font-size:60px;
+     
+      font-weight: 500;
+      text-align: center;
+    }
+  
+    .too {
+      font-size:40px;
+      text-align: center;
+      word-spacing: 18px;
+    }
+  
+    .k {
+      font-size: large;
+    }
+  
+    .ko {
+      display: block;
+      margin-bottom: 10px;
+      
+    }
+  
+    .ic {
+      width: 30px;
+    }
+  }
