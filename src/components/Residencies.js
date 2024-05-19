@@ -30,7 +30,7 @@ const Residencies = () => {
                                   <div className='flex'>
                                       {/* <h1 style={{color:'blueviolet'}}>hii This is the beautiful picture i made</h1> */}
                                   <div className='top'>  
-                                      <img className='tyu' width={260} style={{ color:"red"}} src={card.image} alt="HELLO" />
+                                      <img className='tyu' width={260} style={{ color:"red"}} src={card.image } alt="HELLO" />
                                       <h2 className='map'>{ card.price}</h2>
                                           <h1 className='map'>{card.name }</h1>
                                           <h3 className='map'>{card.detail  }</h3>

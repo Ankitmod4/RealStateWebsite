@@ -81,10 +81,10 @@ const Contact = () => {
 
                 {/* {RIGHT SIDE} */}
                 <div>
-                  <img src={contact} className='kos' alt="" />
+                  <img src="https://real-estate-web.pages.dev/contact.jpg" className='kos' alt="" />
                 </div>
             </div>
-            </section>
+            </section> 
   )
 }
 

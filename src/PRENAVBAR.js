@@ -1,11 +1,11 @@
 import React from 'react'
 import ".//components/prenavbar.css"
 import logo from "./photo/logo.png"
-import img from "./photo/hero-image.png";
+
 
 import CountUp from 'react-countup';
 import { Link } from 'react-scroll';
-
+ 
 const PRENAVBAR = () => {
     
     return (  
@@ -72,7 +72,7 @@ const PRENAVBAR = () => {
           
             {/* RIGHT SIDE */}
           <div className='om'>
-            <img src={img} className='hero' alt="" />
+            <img src="https://real-estate-web.pages.dev/hero-image.png" className='hero' alt="" />
             </div>
         </div>
         

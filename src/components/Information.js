@@ -6,7 +6,7 @@ const Information = () => {
     <div className='wc'>
           <div className='qs'>
               {/* {LEFT side} */}
-              <img src={logo} alt="" />
+              <img src="https://real-estate-web.pages.dev/logo2.png" alt="" />
               <p className='gh'>Our vision is to make all people <br />
 the best place to live for them.</p>
           </div>

@@ -7,17 +7,17 @@ import {
     AccordionItemPanel,
     AccordionItemState 
 } from 'react-accessible-accordion'
-import value from '../photo/value.png'
+// import value from '../photo/value.png'
 import data from './accordion'
 import { MdOutlineArrowDropDown } from 'react-icons/md' 
 import './value.css' 
 const Value = () => {
-  return (
+  return ( 
     <section id='Value'>
     <div className='to' >
         {/* for left side */}
         <div className='left'>
-          <img src={value} style={{ border:'10px solid wheat', marginTop:'150px'}} className='hero' alt="" />
+          <img src="	https://real-estate-web.pages.dev/value.png" style={{ border:'10px solid wheat', marginTop:'150px'}} className='hero' alt="" />
         </div>
         {/* {Right side } */}
         <div className='right'>
